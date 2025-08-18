@@ -1,0 +1,3 @@
+.no-shadow::after {
+  display: none !important;
+}

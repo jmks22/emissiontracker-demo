@@ -1,0 +1,90 @@
+.fleets-table-wrapper {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.2rem 1.5rem;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.08);
+  margin-top: 1rem;
+}
+
+.fleets-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+
+  h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+
+  .add-fleet {
+    background: none;
+    border: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 0.95rem;
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.fleets-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+
+  th,
+  td {
+    text-align: left;
+    padding: 0.6rem 0.75rem;
+    border-bottom: 1px solid #eee;
+  }
+
+  th {
+    font-weight: 600;
+    background-color: #f5f5f5;
+  }
+
+  a {
+    color: #000;
+    font-weight: 500;
+    text-decoration: underline;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.85;
+    }
+  }
+
+  td:focus {
+    outline: 2px solid #409eff;
+    background: #eef6ff;
+  }
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+
+  button {
+    background: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .results-count {
+    margin-left: auto;
+    font-style: italic;
+  }
+}

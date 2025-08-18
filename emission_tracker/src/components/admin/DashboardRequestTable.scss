@@ -1,0 +1,36 @@
+.table-container {
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+  overflow-x: auto;
+  padding: 1rem;
+}
+
+.data-row {
+  border-bottom: 1px solid #eee;
+  align-items: center;
+
+  &:hover {
+    background-color: #fafafa;
+  }
+
+  .status {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+
+  .edit-icon {
+    margin-left: 8px;
+    font-size: 1.2rem;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.2s;
+
+    &:hover {
+      color: #000;
+    }
+  }
+}

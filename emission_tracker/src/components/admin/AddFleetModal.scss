@@ -1,0 +1,90 @@
+.modal-content.create-modal {
+  background: white;
+  border-radius: 12px;
+  max-width: auto;
+  margin: auto;
+  position: relative;
+}
+
+.modal-content h2 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.modal-content label {
+  display: block;
+  margin: 1rem 0 0.25rem;
+  font-weight: 500;
+}
+
+.modal-content input {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1.5rem;
+  gap: 1rem;
+}
+
+.add-button,
+.cancel-button {
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.cancel-button {
+  background: none;
+  color: #444;
+  border: 1px solid #ccc;
+}
+
+.add-button {
+  background: #000;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.close-icon {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+
+ion-modal.compact-modal::part(content) {
+  --padding-start: 0px;
+  --padding-end: 0px;
+  --padding-top: 0px;
+  --padding-bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  max-width: none;
+  height: auto;
+  max-height: 90vh;
+  overflow: auto;
+  box-sizing: border-box;
+}
+
+.modal-content.create-modal {
+  padding: 1rem;
+  width: 100%;
+  min-width: 300px; 
+  max-width: 400px;
+  box-sizing: border-box;
+}

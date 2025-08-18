@@ -1,0 +1,30 @@
+.no-shadow {
+  box-shadow: none !important;
+}
+
+.no-shadow ion-toolbar {
+  --border-width: 0 !important;
+}
+
+.footer-buttons {
+  display: flex;
+  width: 100%;
+  padding: 0 16px;
+}
+
+.footer-buttons ion-buttons {
+  flex: 1;
+}
+
+.footer-buttons ion-button {
+  width: 100%;
+  max-width: 150px;
+}
+
+.footer-buttons ion-buttons[slot="end"] {
+  justify-content: flex-end;
+}
+
+.footer-buttons ion-buttons[slot="start"] {
+  justify-content: flex-start;
+}

@@ -1,0 +1,13 @@
+{
+  "name": "emission_tracker",
+  "integrations": {
+    "capacitor": {}
+  },
+    "proxies": [
+    {
+      "path": "/api",
+      "proxyUrl": "http://localhost:3001/api"
+    }
+  ],
+  "type": "react-vite"
+}

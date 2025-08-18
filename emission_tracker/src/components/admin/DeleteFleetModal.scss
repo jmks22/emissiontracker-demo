@@ -1,0 +1,72 @@
+.delete-modal::part(backdrop) {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.modal-box {
+  background: white;
+  border-radius: 16px;
+  padding: 2rem;
+  width: 90%;
+  max-width: 500px;
+  margin: auto;
+  position: relative;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-header h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.modal-close {
+  font-size: 24px;
+  cursor: pointer;
+  color: #4b5563;
+}
+
+.modal-message {
+  font-size: 16px;
+  margin: 1.5rem 0;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.cancel-button {
+  flex: 1;
+  padding: 0.75rem;
+  font-size: 16px;
+  border-radius: 12px;
+  border: 1px solid #d1d5db;
+  background: white;
+  color: #111827;
+  cursor: pointer;
+}
+
+.delete-button {
+  flex: 1;
+  padding: 0.75rem;
+  font-size: 16px;
+  border-radius: 12px;
+  background-color: #111827;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-icon {
+  font-size: 18px;
+}

@@ -1,0 +1,18 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.link {
+    size: 14px;
+    color: #6e6e6e;
+    text-decoration: underline;
+    cursor: pointer;
+    user-select: none;
+}
+
+.input {
+    --border-radius: 8px;
+}
