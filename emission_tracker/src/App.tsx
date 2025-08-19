@@ -1,6 +1,8 @@
 import { Redirect, Route } from 'react-router-dom';
 import { IonApp, IonRouterOutlet, setupIonicReact } from '@ionic/react';
-import { IonReactRouter } from '@ionic/react-router';
+// import { IonReactRouter } from '@ionic/react-router';
+import { IonReactHashRouter } from '@ionic/react-router';
+
 import Home from './pages/general/Home';
 // import SignUp from './pages/global/SignUp';
 // import Login from './pages/global/Login';
@@ -57,7 +59,7 @@ setupIonicReact();
 const App: React.FC = () => (
   <UserProvider>
     <IonApp>
-      <IonReactRouter>
+      <IonReactHashRouter>
         <IonRouterOutlet>
           <Route exact path="/home">
             <Home />
@@ -114,7 +116,7 @@ const App: React.FC = () => (
             <SettingsPage/>
           </Route>
         </IonRouterOutlet>
-      </IonReactRouter>
+      </IonReactHashRouter>
     </IonApp>
   </UserProvider>
 );
